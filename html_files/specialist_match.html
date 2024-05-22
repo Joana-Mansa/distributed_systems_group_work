@@ -1,0 +1,128 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Match with a Specialist - Mental Health Support App</title>
+    <link rel="stylesheet" href="../css_files/specialist_match.css">
+</head>
+<body>
+
+<header>
+    <img src="logo.png" alt="App Logo">
+    <div class="header-links">
+        <a href="index.html">Home</a>
+        <a href="../html_files/about_page.html">About Us</a>
+        <a href="../html_files/resources_page.html">Resources</a>
+        <a href="contact.html">Contact</a>
+        <a href="login.html">Login</a>
+        <a href="../html_files/sign_up.html">Sign Up</a>
+    </div>
+</header>
+
+<div class="container">
+    <div class="main-content">
+        <div class="match-specialist-section">
+            <h2>Find Your Specialist</h2>
+            <form id="specialist-form">
+                <div class="form-group">
+                    <label for="age">What is your age group?</label>
+                    <select id="age" name="age">
+                        <option value="18-25">18-25</option>
+                        <option value="26-35">26-35</option>
+                        <option value="36-45">36-45</option>
+                        <option value="46-60">46-60</option>
+                        <option value="60+">60+</option>
+                    </select>
+                </div>
+
+                <div class="form-group">
+                    <label for="gender">What is your gender?</label>
+                    <select id="gender" name="gender">
+                        <option value="female">Female</option>
+                        <option value="male">Male</option>
+                        <option value="non-binary">Non-binary</option>
+                        <option value="prefer-not-to-say">Prefer not to say</option>
+                    </select>
+                </div>
+
+                <div class="form-group">
+                    <label for="issue">What issue are you seeking help with?</label>
+                    <select id="issue" name="issue">
+                        <option value="anxiety">Anxiety</option>
+                        <option value="depression">Depression</option>
+                        <option value="stress">Stress</option>
+                        <option value="relationship">Relationship Issues</option>
+                        <option value="self-esteem">Self-Esteem</option>
+                        <option value="other">Other</option>
+                    </select>
+                </div>
+
+                <div class="form-group">
+                    <label for="preference">Do you have a preference for the type of specialist?</label>
+                    <select id="preference" name="preference">
+                        <option value="psychologist">Psychologist</option>
+                        <option value="psychiatrist">Psychiatrist</option>
+                        <option value="therapist">Therapist</option>
+                        <option value="counselor">Counselor</option>
+                        <option value="no-preference">No Preference</option>
+                    </select>
+                </div>
+
+                <div class="form-group">
+                    <label for="mode">Preferred mode of consultation?</label>
+                    <select id="mode" name="mode">
+                        <option value="in-person">In-person</option>
+                        <option value="video">Video Call</option>
+                        <option value="phone">Phone Call</option>
+                        <option value="no-preference">No Preference</option>
+                    </select>
+                </div>
+
+                <div class="form-group">
+                    <label for="language">Preferred language?</label>
+                    <select id="language" name="language">
+                        <option value="english">English</option>
+                        <option value="spanish">Spanish</option>
+                        <option value="french">French</option>
+                        <option value="german">German</option>
+                        <option value="chinese">Chinese</option>
+                        <option value="other">Other</option>
+                    </select>
+                </div>
+
+                <div class="form-group">
+                    <label for="specialist-gender">Preferred gender of the specialist?</label>
+                    <select id="specialist-gender" name="specialist-gender">
+                        <option value="female">Female</option>
+                        <option value="male">Male</option>
+                        <option value="no-preference">No Preference</option>
+                    </select>
+                </div>
+
+                <div class="form-group">
+                    <label for="religion">Religious affiliation?</label>
+                    <select id="religion" name="religion">
+                        <option value="none">None</option>
+                        <option value="christianity">Christianity</option>
+                        <option value="islam">Islam</option>
+                        <option value="hinduism">Hinduism</option>
+                        <option value="buddhism">Buddhism</option>
+                        <option value="other">Other</option>
+                    </select>
+                </div>
+
+                <button type="submit">Find My Specialist</button>
+            </form>
+        </div>
+    </div>
+</div>
+
+<footer class="footer">
+    <p><a href="#" class="footer-link">Privacy Policy</a> | <a href="#" class="footer-link">Terms of Service</a></p>
+    <p>Contact: info@mindlinkapp.com | Follow us on social media</p>
+</footer>
+
+<script src="../scripts.js/specialist_script.js"></script>
+</body>
+</html>

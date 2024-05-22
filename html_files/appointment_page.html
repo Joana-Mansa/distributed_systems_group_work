@@ -1,0 +1,92 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>MindLink - Appointment Page</title>
+    <link rel="stylesheet" href="../css_files/appointment_page.css">
+</head>
+<body>
+
+<header>
+    <img src="logo.png" alt="App Logo" href="../html_files/about_page.html">
+    <div>
+        <img src="user.png" alt="User Profile" class="profile-pic">
+    </div>
+</header>
+
+<div class="container">
+    <div class="sidebar">
+        <a href="#">Home</a>
+        <a href="#">My Progress</a>
+        <a href="../html_files/resources_page.html">Resources</a>
+        <a href="#">Support Groups</a>
+        <a href="#">Settings</a>
+        <a href="#">Contact Support</a>
+    </div>
+    <div class="main-content">
+        <div class="appointment-section">
+            <h2>Schedule an Appointment</h2>
+            <label for="date">Select Date</label>
+            <input type="date" id="date">
+            
+            <label for="time">Select Time</label>
+            <input type="time" id="time">
+            
+            <label for="therapist">Select Therapist</label>
+            <select id="therapist">
+                <option>Dr. Jane Doe - Psychologist</option>
+                <option>Dr. John Smith - Psychiatrist</option>
+                <option>Dr. Alice Brown - Therapist</option>
+            </select>
+            
+            <label for="type">Type of Appointment</label>
+            <select id="type">
+                <option>Initial Consultation</option>
+                <option>Follow-up</option>
+                <option>Therapy Session</option>
+            </select>
+            
+            <label for="mode">Mode of Appointment</label>
+            <select id="mode">
+                <option>Video Call</option>
+                <option>Voice Call</option>
+            </select>
+        </div>
+        
+        <div class="appointments-list">
+            <h2>Upcoming Appointments</h2>
+            <div class="appointment-item">
+                <div>
+                    <strong>Dr. Jane Doe</strong><br>
+                    May 25, 2024, 10:00 AM<br>
+                    Therapy Session (Video Call)
+                </div>
+                <div>
+                    <button>Reschedule</button>
+                    <button>Cancel</button>
+                </div>
+            </div>
+            
+            <div class="appointment-item">
+                <div>
+                    <strong>Dr. John Smith</strong><br>
+                    May 27, 2024, 2:00 PM<br>
+                    Follow-up (Voice Call)
+                </div>
+                <div>
+                    <button>Reschedule</button>
+                    <button>Cancel</button>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+
+<footer class="footer">
+    <p><a href="#" class="footer-link">Privacy Policy</a> | <a href="#" class="footer-link">Terms of Service</a></p>
+    <p>Contact: info@mindlinkapp.com | Follow us on social media</p>
+</footer>
+
+</body>
+</html>
