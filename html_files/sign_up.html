@@ -1,47 +1,41 @@
 <!DOCTYPE html>
+
 <html lang="en">
 <head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Sign Up</title>
-    <link rel="stylesheet" href="../css_files/sign-up.css">
+<meta charset="utf-8"/>
+<meta content="width=device-width, initial-scale=1.0" name="viewport"/>
+<title>Sign Up</title>
+<link href="../css_files/sign-up.css" rel="stylesheet"/>
 </head>
-<body>
-
+<body><p id="prototype-status" role="note">Coursework prototype: profiles, assessments and appointments are demonstrations.</p>
 <div class="signup-container">
-    <h2>Sign Up</h2>
-    <form>
-        <input type="text" name="firstname" placeholder="First name" required>
-        <input type="text" name="surname" placeholder="Surname" required>
-        <input type="number" name="age" placeholder="Age" required>
-        <select name="gender" required>
-            <option value="" disabled selected>Select Gender</option>
-            <option value="male">Male</option>
-            <option value="female">Female</option>
-            <option value="other">Other</option>
-            <option value="prefer_not_to_say">Prefer not to say</option>
-
-        </select>
-
-        <input type="email" name="email" placeholder="Email" required>
-        <input type="tel" name="phone" placeholder="Phone Number" required>
-
-        <input type="password" name="password" placeholder="Password" required>
-        <input type="password" name="confirm Password" placeholder="Confirm Password" required>
-        <input type="text" name="emergency_contact_name" placeholder="Emergency Contact Name" required>
-        <input type="tel" name="emergency_contact_phone" placeholder="Emergency Contact Phone" required>
-        <select name="Relationship with Emergency Contact" required>
-            <option value="" disabled selected> Relationship with emergency Contact</option>
-            <option value="Parent">Parent</option>
-            <option value="Sibling">Sibling</option>
-            <option value="Friend">Friend</option>
-            <option value="prefer_not_to_say">Prefer not to say</option>
-
-        </select>
-
-        <button type="submit">Sign Up</button>
-    </form>
+<h2>Sign Up</h2>
+<form>
+<input name="firstname" placeholder="First name" required="" type="text"/>
+<input name="surname" placeholder="Surname" required="" type="text"/>
+<input name="age" placeholder="Age" required="" type="number"/>
+<select name="gender" required="">
+<option disabled="" selected="" value="">Select Gender</option>
+<option value="male">Male</option>
+<option value="female">Female</option>
+<option value="other">Other</option>
+<option value="prefer_not_to_say">Prefer not to say</option>
+</select>
+<input name="email" placeholder="Email" required="" type="email"/>
+<input name="phone" placeholder="Phone Number" required="" type="tel"/>
+<input name="password" placeholder="Password" required="" type="password"/>
+<input name="confirm Password" placeholder="Confirm Password" required="" type="password"/>
+<input name="emergency_contact_name" placeholder="Emergency Contact Name" required="" type="text"/>
+<input name="emergency_contact_phone" placeholder="Emergency Contact Phone" required="" type="tel"/>
+<select name="Relationship with Emergency Contact" required="">
+<option disabled="" selected="" value=""> Relationship with emergency Contact</option>
+<option value="Parent">Parent</option>
+<option value="Sibling">Sibling</option>
+<option value="Friend">Friend</option>
+<option value="prefer_not_to_say">Prefer not to say</option>
+</select>
+<button type="submit">Sign Up</button>
+</form>
 </div>
-
 </body>
 </html>
